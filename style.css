@@ -1,5 +1,38 @@
+html {
+    font-size: 10px;
+    background: url("song/phonepicutres-TA.webp") bottom center;
+    background-size: cover;
+  }
+
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .key {
+    color: greenyellow;
+    border:2px  solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 2rem;
+    padding:1rem .5rem ;
+    transition: all 0.05s;
+    width: 100px;
+    text-align: center;
+    background:rgba (0,0,0,0.4);
+  }
+
 p {
     text-align: center;
-    color: brown;
+    color: red;
     font-size: xx-large;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 1rem #ffc600;
 }
